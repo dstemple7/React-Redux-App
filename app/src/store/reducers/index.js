@@ -6,7 +6,9 @@ import {
 
 const initialState = {
   isLoading: false,
-  dogs: [],
+  dogs: {
+    message: []
+  },
   error: ''
 }
 
