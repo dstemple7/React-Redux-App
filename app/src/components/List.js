@@ -14,8 +14,8 @@ const DogsList = props => {
 
   return (
     <div>
-      <button onClick={refreshPage}>Show me a new lil yapper</button>
-      <h1>Woof woof</h1>
+      <button onClick={refreshPage}>Oooh, that's an ugly beast, show me a fresh one!</button>
+      <h1>Show me my son's cousins!</h1>
       <img src={props.dogs.message} />
     </div>
   )

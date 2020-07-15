@@ -8,7 +8,7 @@ export const fetchDogs = () => {
   return dispatch => {
     dispatch({type:FETCH_DOGS_START})
     axios
-    .get('https://dog.ceo/api/breeds/image/random')
+    .get('https://dog.ceo/api/breed/schnauzer/miniature/images/random')
     .then(res => {
       dispatch({type:FETCH_DOGS_SUCCESS, payload: res.data})
     })
